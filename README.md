@@ -1,9 +1,9 @@
 
-#Miles Deep - AI Porn Video Editor
 
-Using a deep convolutional neural network with residual connections, Miles Deep quickly classifies each second of a pornographic video into 6 categories based on sexual act with 95% accuracy. Then it uses that classification to automatically edit the video. It can remove all the scenes not containing sexual contact, or edit out just a specific act.
 
-Unlike Yahoo's recently released [NSFW model](https://github.com/yahoo/open_nsfw),  which uses a similar architecture, Miles Deep can tell the difference between nudity and various explicit sexual acts. As far as I know this is the first and only public pornography classification or editing tool.
+Using a deep convolutional neural network with residual connections, it quickly classifies each second of a pornographic video into 6 categories based on sexual act with 92% accuracy. Then it uses that classification to automatically edit the video. It can remove all the scenes not containing sexual contact, or edit out just a specific act.
+
+Unlike Yahoo's  [NSFW model](https://github.com/yahoo/open_nsfw),  which uses a similar architecture, Miles Deep can tell the difference between nudity and various explicit sexual acts. As far as I know this is the first and only public pornography classification or editing tool.
 
 This program can also be viewed as a general framework for classifying video with a [Caffe](http://caffe.berkeleyvision.org/) model, using batching and threading in C++. By replacing the weights, model definition, and mean file it can immediately be used to edit videos with other classes without recompiling. See below for an [example](https://github.com/ryanjay0/miles-deep#using-miles-deep-with-your-own-caffe-model).
 
